@@ -1,0 +1,28 @@
+/* speech-to-text.component.css */
+
+
+button {
+    padding: 10px 20px;
+    margin: 5px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#listeningMessage {
+    font-size: 18px;
+    font-weight: bold;
+    color: #e67e22;
+    margin-top: 10px;
+}
+
+#spokenText {
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    background-color: #f5f5f5;
+    font-size: 16px;
+    line-height: 1.5;
+}

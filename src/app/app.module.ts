@@ -18,6 +18,7 @@ import { PicboardComponent } from './PictureBoard/picboard/picboard.component';
 import { EmotionsComponent } from './PictureBoard/emotions/emotions.component';
 import { GroceryComponent } from './PictureBoard/grocery/grocery.component';
 import { FooterComponent } from './footer/footer.component';
+import { VoiceComponent } from './voice/voice.component';
 
 
 
@@ -35,7 +36,8 @@ import { FooterComponent } from './footer/footer.component';
     PicboardComponent,
     EmotionsComponent,
     GroceryComponent,
-    FooterComponent
+    FooterComponent,
+    VoiceComponent
   ],
   imports: [
     BrowserModule,

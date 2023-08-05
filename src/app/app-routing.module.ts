@@ -5,6 +5,10 @@ import { HomeComponent } from './Home/home/home.component';
 import { PicboardComponent } from './PictureBoard/picboard/picboard.component';
 import { GroceryComponent } from './PictureBoard/grocery/grocery.component';
 import { AboutusComponent } from './aboutus/aboutus.component';
+import { TourismComponent } from './PictureBoard/tourism/tourism.component';
+import { SocialComponent } from './PictureBoard/social/social.component';
+import { FestivalsComponent } from './PictureBoard/festivals/festivals.component';
+import { VoiceComponent } from './voice/voice.component';
 
 const routes: Routes = [
   { path: '', component: HomeComponent },
@@ -12,9 +16,10 @@ const routes: Routes = [
   { path: 'picboard', component: PicboardComponent },
   { path: 'emotions', component: EmotionsComponent },
   { path: 'grocery', component: GroceryComponent },
-  { path: 'tourism', component: GroceryComponent },
-  { path: 'social', component: GroceryComponent },
-  { path: 'festivals', component: GroceryComponent },
+  { path: 'tourism', component: TourismComponent },
+  { path: 'social', component: SocialComponent },
+  { path: 'festivals', component: FestivalsComponent },
+  { path: 'voice', component: VoiceComponent }
 
 ];
 
