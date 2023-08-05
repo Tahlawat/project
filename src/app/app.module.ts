@@ -17,6 +17,7 @@ import { PricingComponent } from './Home/pricing/pricing.component';
 import { PicboardComponent } from './PictureBoard/picboard/picboard.component';
 import { EmotionsComponent } from './PictureBoard/emotions/emotions.component';
 import { GroceryComponent } from './PictureBoard/grocery/grocery.component';
+import { FooterComponent } from './footer/footer.component';
 
 
 
@@ -33,7 +34,8 @@ import { GroceryComponent } from './PictureBoard/grocery/grocery.component';
     PricingComponent,
     PicboardComponent,
     EmotionsComponent,
-    GroceryComponent
+    GroceryComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
