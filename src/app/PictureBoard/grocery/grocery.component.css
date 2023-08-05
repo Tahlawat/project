@@ -1,3 +1,4 @@
+
 .section1{
     text-align: center;
     justify-content: center;
@@ -50,4 +51,20 @@
     text-align: center;
     justify-content: center;
     margin-bottom:5%;
+}
+
+.section4 .pictures3{
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 344px;
+    height: 306px;
+    margin-bottom: 5%;
+    display: flex;
+
+}
+
+.section4 .pictures3 img{
+    margin-right: 25%;
+    cursor: pointer;
+    margin-left: 5%;
 }
