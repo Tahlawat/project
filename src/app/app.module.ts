@@ -6,8 +6,8 @@ import { AppComponent } from './app.component';
 import { NavbarComponent } from './navbar/navbar.component';
 
 import { MatButtonModule } from '@angular/material/button';
-import {MatIconModule} from '@angular/material/icon';
-import{MatMenuModule} from'@angular/material/menu';
+import { MatIconModule } from '@angular/material/icon';
+import { MatMenuModule } from '@angular/material/menu';
 import { CarouselComponent } from './Home/carousel/carousel.component';
 import { HomeComponent } from './Home/home/home.component';
 import { EveryVoiceComponent } from './Home/every-voice/every-voice.component';
@@ -20,10 +20,6 @@ import { GroceryComponent } from './PictureBoard/grocery/grocery.component';
 import { SocialComponent } from './PictureBoard/social/social.component';
 import { FestivalsComponent } from './PictureBoard/festivals/festivals.component';
 import { TourismComponent } from './PictureBoard/tourism/tourism.component';
-import { FooterComponent } from './footer/footer.component';
-import { AboutUsComponent } from './about-us/about-us.component';
-import { VoiceComponent } from './voice/voice.component';
-import { ContactComponent } from './contact/contact.component';
 
 
 
@@ -43,11 +39,7 @@ import { ContactComponent } from './contact/contact.component';
     GroceryComponent,
     SocialComponent,
     FestivalsComponent,
-    TourismComponent,
-    FooterComponent,
-    AboutUsComponent,
-    VoiceComponent,
-    ContactComponent
+    TourismComponent
   ],
   imports: [
     BrowserModule,
@@ -55,7 +47,7 @@ import { ContactComponent } from './contact/contact.component';
     MatButtonModule,
     MatIconModule,
     MatMenuModule
-    
+
   ],
   providers: [],
   bootstrap: [AppComponent]
