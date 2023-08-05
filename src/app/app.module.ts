@@ -6,8 +6,8 @@ import { AppComponent } from './app.component';
 import { NavbarComponent } from './navbar/navbar.component';
 
 import { MatButtonModule } from '@angular/material/button';
-import {MatIconModule} from '@angular/material/icon';
-import{MatMenuModule} from'@angular/material/menu';
+import { MatIconModule } from '@angular/material/icon';
+import { MatMenuModule } from '@angular/material/menu';
 import { CarouselComponent } from './Home/carousel/carousel.component';
 import { HomeComponent } from './Home/home/home.component';
 import { EveryVoiceComponent } from './Home/every-voice/every-voice.component';
@@ -17,7 +17,6 @@ import { PricingComponent } from './Home/pricing/pricing.component';
 import { PicboardComponent } from './PictureBoard/picboard/picboard.component';
 import { EmotionsComponent } from './PictureBoard/emotions/emotions.component';
 import { GroceryComponent } from './PictureBoard/grocery/grocery.component';
-import { AboutusComponent } from './aboutus/aboutus.component';
 
 
 
@@ -34,8 +33,7 @@ import { AboutusComponent } from './aboutus/aboutus.component';
     PricingComponent,
     PicboardComponent,
     EmotionsComponent,
-    GroceryComponent,
-    AboutusComponent
+    GroceryComponent
   ],
   imports: [
     BrowserModule,
@@ -43,7 +41,7 @@ import { AboutusComponent } from './aboutus/aboutus.component';
     MatButtonModule,
     MatIconModule,
     MatMenuModule
-    
+
   ],
   providers: [],
   bootstrap: [AppComponent]
