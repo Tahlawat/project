@@ -20,6 +20,10 @@ import { GroceryComponent } from './PictureBoard/grocery/grocery.component';
 import { SocialComponent } from './PictureBoard/social/social.component';
 import { FestivalsComponent } from './PictureBoard/festivals/festivals.component';
 import { TourismComponent } from './PictureBoard/tourism/tourism.component';
+import { FooterComponent } from './footer/footer.component';
+import { AboutUsComponent } from './about-us/about-us.component';
+import { VoiceComponent } from './voice/voice.component';
+import { ContactComponent } from './contact/contact.component';
 
 
 
@@ -39,7 +43,11 @@ import { TourismComponent } from './PictureBoard/tourism/tourism.component';
     GroceryComponent,
     SocialComponent,
     FestivalsComponent,
-    TourismComponent
+    TourismComponent,
+    FooterComponent,
+    AboutUsComponent,
+    VoiceComponent,
+    ContactComponent
   ],
   imports: [
     BrowserModule,

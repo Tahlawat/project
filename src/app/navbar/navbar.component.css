@@ -46,17 +46,17 @@ header {
   
   .menu {
     float: right;
-    margin-left: 100px;
-    margin-bottom: 50px;
-    margin-top: 20px;
-    
+    margin-left: 400px;
+    margin-bottom: 40px;
+    margin-top: 9px;
+   
   
   }
   
   .menu ul {
     padding: 0;
     margin: 0;
-  
+    
   }
   
   .menu ul li {
@@ -74,6 +74,7 @@ header {
     list-style: none;
     text-decoration: none;
     color: #000000;
+    
   } 
    .menu ul li a:hover{
     color: #9c9c9c;
@@ -81,8 +82,10 @@ header {
     transition: 0.4s ease-in-out;
   } 
 
+ 
+
   /* Creattion of responsive navbar */
-  @media(max-width: 999px) {
+  @media(max-width: 1100px) {
     .menu {
       position: fixed;
       right: -280px;
@@ -91,7 +94,6 @@ header {
       height: 100%;
       background: #ffffff;
       transition: 0.4s ease-in-out;
-  
     }
   
     .menu ul li {
@@ -100,6 +102,7 @@ header {
       margin: 0;
       padding: 10px 0 10px 26px;
       border-bottom: 1px solid #312f2f;
+      padding: 0px;
   
     }
   
