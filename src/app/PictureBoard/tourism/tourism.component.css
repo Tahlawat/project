@@ -1,4 +1,11 @@
+
 .section1{
+    text-align: center;
+    justify-content: center;
+    margin-bottom:5%;
+}
+
+.section2 h2{
     text-align: center;
     justify-content: center;
     margin-bottom:5%;
@@ -6,33 +13,58 @@
 
 .section2 .pictures {
     display: flex;
-    margin-left:20%;
-    margin-right: 20%;
+    margin-left:10%;
+    margin-right: 10%;
     width: 344px;
     height: 306px;
     margin-bottom: 5%;
 }
 
-#img1{
-    padding-right: 20px;
-    justify-content: center;
-    align-items: center;
+.section2 .pictures img{
+    margin-right: 45%;
+    cursor: pointer;
 }
 
-#img2{
-    padding-right: 20px;
+.section3 h2{
+    text-align: center;
     justify-content: center;
-    align-items: center;
+    margin-bottom:5%;
 }
-
-
 
 .section3 .pictures2{
-    margin-left: 20%;
-    margin-right: 20%;
+    margin-left: 10%;
+    margin-right: 10%;
     width: 344px;
     height: 306px;
     margin-bottom: 5%;
     display: flex;
 
+}
+
+.section3 .pictures2 img{
+    margin-right: 25%;
+    cursor: pointer;
+    margin-left: 5%;
+}
+
+.section4 h2{
+    text-align: center;
+    justify-content: center;
+    margin-bottom:5%;
+}
+
+.section4 .pictures3{
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 344px;
+    height: 306px;
+    margin-bottom: 5%;
+    display: flex;
+
+}
+
+.section4 .pictures3 img{
+    margin-right: 25%;
+    cursor: pointer;
+    margin-left: 5%;
 }
