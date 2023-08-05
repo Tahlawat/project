@@ -17,6 +17,9 @@ import { PricingComponent } from './Home/pricing/pricing.component';
 import { PicboardComponent } from './PictureBoard/picboard/picboard.component';
 import { EmotionsComponent } from './PictureBoard/emotions/emotions.component';
 import { GroceryComponent } from './PictureBoard/grocery/grocery.component';
+import { SocialComponent } from './PictureBoard/social/social.component';
+import { FestivalsComponent } from './PictureBoard/festivals/festivals.component';
+import { TourismComponent } from './PictureBoard/tourism/tourism.component';
 
 
 
@@ -33,7 +36,10 @@ import { GroceryComponent } from './PictureBoard/grocery/grocery.component';
     PricingComponent,
     PicboardComponent,
     EmotionsComponent,
-    GroceryComponent
+    GroceryComponent,
+    SocialComponent,
+    FestivalsComponent,
+    TourismComponent
   ],
   imports: [
     BrowserModule,

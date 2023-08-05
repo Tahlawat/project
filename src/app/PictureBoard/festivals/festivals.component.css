@@ -1,0 +1,38 @@
+.section1{
+    text-align: center;
+    justify-content: center;
+    margin-bottom:5%;
+}
+
+.section2 .pictures {
+    display: flex;
+    margin-left:20%;
+    margin-right: 20%;
+    width: 344px;
+    height: 306px;
+    margin-bottom: 5%;
+}
+
+#img1{
+    padding-right: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+#img2{
+    padding-right: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.section3 .pictures2{
+    margin-left: 20%;
+    margin-right: 20%;
+    width: 344px;
+    height: 306px;
+    margin-bottom: 5%;
+    display: flex;
+
+}
