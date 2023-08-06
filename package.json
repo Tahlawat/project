@@ -1,6 +1,9 @@
 {
   "name": "project",
   "version": "0.0.0",
+  "engines": {
+    "node": "16.x"
+  },
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
@@ -42,7 +45,4 @@
     "karma-jasmine-html-reporter": "~2.0.0",
     "typescript": "~5.0.2"
   }
-},
-"engines": {
-    "node": "16.x"
-  },
+}
